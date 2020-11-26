@@ -283,6 +283,12 @@ body {
     color: rgb(48, 47, 47);
 }
 
+.dollar {
+    display: inline;
+    color: rgb(58, 57, 57);
+    font-size: 18px;
+}
+
 .found {
     display: flex;
     justify-content: space-between;
@@ -416,6 +422,54 @@ body {
     width: 370px;
     height: 300px;
     background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://im0-tub-com.yandex.net/i?id=d6acc036a6975b04f045ffe44e489adc&n=13);
+    background-size: cover;
+}
+
+.most4 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://assets.entrepreneur.com/content/3x2/2000/20161213064853-Technologie-Marketing.jpeg);
+    background-size: cover;
+}
+
+.most5 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://im0-tub-com.yandex.net/i?id=260b5aa2406336c17e62fb43a97ec299&n=13);
+    background-size: cover;
+}
+
+.most6 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://im0-tub-com.yandex.net/i?id=c09e106a56e85657cc01f61145fcf223&n=13);
+    background-size: cover;
+}
+
+.most7 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://im0-tub-com.yandex.net/i?id=bb44584390b264f6732bdc3cc445ee0d&n=13);
+    background-size: cover;
+}
+
+.most8 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://www.coolsmartphone.com/wp-content/uploads/2019/11/Fairphone-3-Launch-_-Man-in-blue-tshirt-e1572622312639.jpg);
+    background-size: cover;
+}
+
+.most9 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://im0-tub-com.yandex.net/i?id=c6d76ded18198e31c2b482a37e619adf&n=13);
     background-size: cover;
 }
 
