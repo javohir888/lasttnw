@@ -9,7 +9,6 @@ body {
     font-family: sans-serif;
 }
 
-
 .ctn {
     background-color: #F1F1F1;
 }
@@ -59,8 +58,9 @@ body {
 
 .head2 {
     position: sticky;
-    bottom: 0;
+    top: 0;
     display: flex;
+    align-self: flex-start;
     justify-content: space-between;
     height: 45px;
     background-color: white;
