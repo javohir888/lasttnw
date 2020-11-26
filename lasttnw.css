@@ -492,3 +492,82 @@ body {
     font-size: 11px;
     margin: 15px 0;
 }
+
+.deals {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.deals a {
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #131313;
+    margin-top: 60px;
+}
+
+.face {
+    display: flex;
+    justify-content:center ;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+}
+
+.face i {
+    color: honeydew;
+    background-color: rgb(37, 36, 36);
+    padding: 13px;
+    border: 2px solid rgb(37, 36, 36);
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+
+.face i:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.events li {
+    list-style-type: none;
+    font-size: 12px;
+    color: grey;
+    margin: 0 10px 10px 0;
+}
+
+.events li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.bott-foot {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: gray;
+    font-size: 12px;
+    padding: 30px 0;
+}
+
+.bott-foot span {
+    color: white;
+    font-size: 13px;
+}
+
+.bott-foot span:hover {
+    cursor: pointer;
+}
+
+.fa-universal-access {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    font-size: 50px;
+    color: blue;
+}
