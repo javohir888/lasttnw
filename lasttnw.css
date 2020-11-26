@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ctn {
+    background-color: #F1F1F1;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    background-color: black;
+    height: 40px;
+}
+
+.ul1 {
+    display: flex;
+    padding: 0 20px;
+}
+
+.ul1 li {
+    list-style-type: none;
+} 
+
+.ul1 li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+.ul2 {
+    display: flex;
+    padding: 0 20px;
+}
+
+.ul2 li {
+    list-style-type: none;
+} 
+
+.ul2 li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+.ul1 li a:hover,
+.ul2 li a:hover {
+    color: white;
+}
+
+.head2 {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    background-color: white;
+}
+
+.ul3 {
+    display: flex;
+    padding-left: 18px;
+}
+
+.ul3 li {
+    list-style-type: none;
+}
+
+.ul3 li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.ul3 li a:hover,
+.fa-search:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.search {
+    border-left: 1px solid grey;
+}
+
+.fa-search {
+    margin: 15px 17px 0 17px;
+    color: gray;
+    font-size: 18px;
+}
+
+.gred {
+    display: flex;
+    margin: 8px;
+}
+
+.left {
+    position: relative;
+    width: 68%;
+    height: 430px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0.4), rgba(0,0,0,0.9)), url(https://im0-tub-com.yandex.net/i?id=2d864b743f735c3306123a7d5240cc18&n=13);
+    background-size: cover;
+}
+
+.left .logo {
+    position: absolute;
+    top: -25px;
+    left: 15px;
+    font-size: 200px;
+    font-weight: bold;
+    /* border: 5px green solid; */
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.nov {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: white;
+}
+
+.the a {
+    color: white;
+    text-decoration: none;
+}
+
+.the {
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.by-nappi {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 12px;
+    color: white;
+}
+
+
+.right {
+    width: 31%;
+    margin-left: 8px;
+}
+
+
+
+.right1 {
+    position: relative;
+    height: 211px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(https://im0-tub-com.yandex.net/i?id=5c01da8ac8e56ab518377fc67dfbef72&n=13);
+    background-size: cover;
+}
+
+.h11 {
+    position: absolute  ;
+    left: 15px;
+    top: 50px;
+}
+
+.h11 a {
+    color: white;
+    text-decoration: none;
+}
+
+.p11 {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+}
+
+.p11 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.by-tristan {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: x-small;
+    color: white;
+}
+
+.right2 {
+    position: relative;
+    height: 211px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(https://static.tildacdn.com/tild6336-3566-4939-a131-316235656564/comprar-seguidores-y.png);
+    background-size: cover;
+    margin-top: 8px;
+}
+
+.youtube {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+}
+
+.youtube a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.by-thomas {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: x-small;
+    color: white;
+}
