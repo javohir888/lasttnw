@@ -367,3 +367,128 @@ body {
     width: 60px;
     height: 60px;
 }
+
+
+
+
+
+.elon {
+    display: flex;
+}
+
+.hard {
+    margin: 0 15px;
+}
+
+.centr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hard h2 {
+    color: red;
+    font-weight: 900;
+}
+
+.hard h2:hover {
+    cursor: pointer;
+    color: rgb(34, 1, 34);
+}
+
+.most1 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://im0-tub-com.yandex.net/i?id=637992fa6a25e15810ba2d0b4ef21e5d&n=13);
+    background-size: cover;
+}
+
+.most2 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://i.ytimg.com/vi/IAbm5snSvhc/maxresdefault.jpg);
+    background-size: cover;
+}
+
+.most3 {
+    position: relative;
+    width: 370px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0,0,0,9), rgba(0,0,0,0)), url(https://im0-tub-com.yandex.net/i?id=d6acc036a6975b04f045ffe44e489adc&n=13);
+    background-size: cover;
+}
+
+.popu {
+    position: absolute;
+
+}
+
+.popu {
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    font-size: 14px;
+    font-weight: 600;
+    color: wheat;
+}
+
+.musk a {
+    position: absolute;
+    left: 20px;
+    top: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    color: wheat;
+    text-decoration: none;
+}
+
+.musk a:hover {
+    text-decoration: underline;
+}
+
+.david {
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+    color: grey;
+    font-size: 12px;
+}
+
+.david:hover {
+    cursor: pointer;
+    color: honeydew;
+}
+
+.elonbot {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h4p {
+    /* float: left; */
+    background-color: rgb(252, 232, 232);
+    color: rgb(252, 82, 82);
+    padding-left: 15px;
+}
+
+.hp4 .par {
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.imge {
+    float: right;
+}
+
+.imge .imge1 {
+    width: 100px;
+    height: 100px;
+}
+
+.ulbot li {
+    color: grey;
+    font-size: 11px;
+    margin: 15px 0;
+}
